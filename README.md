@@ -19,3 +19,6 @@ Each id for the images is unique since it's generated using a timestamp.
 
 Each image is resized to the possibly new shape using the Library Pillow. 
 
+The file app.py requires only the user to insert the input paths and then it calls the class solution and the module save_json to save the file in
+the output dir.
+
