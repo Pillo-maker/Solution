@@ -143,7 +143,8 @@ class Solution:
         return files
     
     def return_total_dict(self):
-        
+        #function that return the dict calculated by pars for each of the file and then append them to the list
+        #which are the values of the final dict to be saved in json.
         data = self.get_data()
         categories = []
         images = []
